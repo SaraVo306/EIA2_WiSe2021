@@ -1,7 +1,5 @@
-
 "use strict";
-var person: string = prompt("Please enter your name");
-if (person != null) {
-    document.getElementById("demo").innerHTML =
-        "Hey " + person + "! How are you doing? :)";
-}
+var person: string = prompt("Wie ist dein Name?");
+window.addEventListener("load", function () {
+    document.getElementById("answer").innerHTML = "Hallo " + person + ". Freut mich dass du auf meiner Seite bist!";
+});
