@@ -1,5 +1,3 @@
-"use strict";
-var person: string = prompt("Wie ist dein Name?");
-window.addEventListener("load", function () {
-    document.getElementById("answer").innerHTML = "Hallo " + person + ". Freut mich dass du auf meiner Seite bist!";
-});
+var person: string = prompt("Please enter preferred tenure in years", "15");
+    
+		document.getElementById("message").innerHTML = "You have entered " + person + " years";
