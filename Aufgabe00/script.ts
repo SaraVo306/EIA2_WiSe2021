@@ -1,3 +1,10 @@
-var person: string = prompt("Please enter preferred tenure in years", "15");
+window.addEventListener("load", function () {
+
+    let person: string = prompt("Wie lautet dein Name?", "");
     
-		document.getElementById("message").innerHTML = "You have entered " + person + " years";
+    if (person != null) {
+      document.getElementById("name").innerHTML = "Hallo " + person + ", wie geht es dir heute?";
+    }
+    });
+
+//mithilfe von W3Schools//
